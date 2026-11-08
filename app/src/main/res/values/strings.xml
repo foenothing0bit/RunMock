@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">跑步轨迹模拟</string>
+
+    <string name="status_checking">正在检查模拟位置权限…</string>
+    <string name="status_authorized">已选中为模拟位置应用 ✅</string>
+    <string name="status_unauthorized">⚠️ 尚未选中为模拟位置应用：开发者选项 → 选择模拟位置信息应用 → 跑步轨迹模拟</string>
+    <string name="status_idle">待命</string>
+
+    <string name="btn_open_dev_settings">打开开发者选项</string>
+    <string name="btn_import_gpx">导入 GPX</string>
+    <string name="btn_sample_route">示例路线</string>
+    <string name="btn_clear">清空</string>
+    <string name="btn_start">开始模拟跑步</string>
+    <string name="btn_stop">停止模拟</string>
+
+    <string name="route_empty">尚未加载路线：导入一条 GPX 轨迹，或点「示例路线」快速验证。</string>
+    <string name="route_loading">正在读取上次的路线…</string>
+
+    <string name="mode_pace">按配速跑</string>
+    <string name="mode_timed">按原始时间</string>
+    <string name="hint_pace">配速 5:30 /km</string>
+    <string name="hint_multiplier">回放倍速，如 10</string>
+    <string name="label_loop">到终点后从头循环</string>
+    <string name="stats_idle">已跑 0.00 / 0.00 km · 用时 0:00 · 当前 --\'--\"</string>
+
+    <string name="notif_channel_name">轨迹模拟运行中</string>
+    <string name="notif_channel_desc">保持模拟定位持续输出</string>
+    <string name="notif_title">跑步轨迹模拟中</string>
+    <string name="notif_action_pause">暂停</string>
+    <string name="notif_action_resume">继续</string>
+    <string name="notif_action_stop">停止</string>
+</resources>
